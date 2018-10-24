@@ -1,5 +1,5 @@
 body {
-	background-color: #212121;
+	background-color: #303030;
 	color: #ffffff;
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -31,40 +31,43 @@ hr {
 
 .me {
 	background-color: #FF7043;
-	border: 3px solid #E64A19;
+	border: 4px solid #E64A19;
 	width: 100px;
 	height: 100px;
 	cursor: pointer;
+	text-align: center;
 	user-select: none
 }
 
 .me:hover {
 	background-color: #D84315;
-	border: 3px solid #BF360C;
+	border: 4px solid #BF360C;
 	color: #fff
 }
 
 .contact {
 	background-color: #66BB6A;
-	border: 3px solid #43A047;
+	border: 4px solid #43A047;
 	width: 100px;
 	height: 100px;
 	cursor: pointer;
+	text-align: center;
 	user-select: none
 }
 
 .contact:hover {
 	background-color: #2E7D32;
-	border: 3px solid #1B5E20;
+	border: 4px solid #1B5E20;
 	color: #fff
 }
 
 .projects {
 	background-color: #29B6F6;
-	border: 3px solid #039BE5;
+	border: 4px solid #039BE5;
 	width: 100px;
 	height: 100px;
 	cursor: pointer;
+	text-align: center;
 	user-select: none
 }
 
@@ -94,12 +97,13 @@ hr {
 }
 
 .box2 h2 {
+	background-color: #F44336;
+	border: 4px solid #D32F2F;
 	font-size: 1.5rem;
 	text-align: justify;
 	padding: 50px;
 	width: 35vw;
 	height: 240px;
-	border: 2px solid #fff;
 	box-sizing: border-box;
 	line-height: 3rem;
 }
