@@ -86,7 +86,7 @@ hr {
 
 .box1 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	max-width: 20vw;
 	flex-wrap: wrap;
 	align-items: center;
