@@ -93,6 +93,7 @@ hr {
 	max-width: 50vw;
 	flex-wrap: wrap;
 	align-items: center;
+	margin-right: 15px
 }
 
 .box1 div {
@@ -183,9 +184,8 @@ hr {
 	}
 
 	.square {
-		border: 1px solid #ffffff;
-		width: 70px;
-		height: 70px;
+		width: 60px;
+		height: 60px;
 		cursor: pointer;
 	}
 
