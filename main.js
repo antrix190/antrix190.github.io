@@ -33,7 +33,7 @@ setInterval(displayTime, 1000);
 
 // Dynamically change text in div
 const me = () => {
-	sq5.textContent = 'Nazywam się Milan Muzalewski i pochodze z Polski. Mam 14 lat i uczęszczem do trzeciej klasy gimnazjalalnej';
+	sq5.textContent = 'Nazywam się Milan Muzalewski i pochodzę z Polski. Mam 14 lat i uczęszczam do trzeciej klasy gimnazjum w małej miejscowości pod Poznaniem.';
 };
 const contact = () => {
 	sq5.textContent = 'Skontaktuj się ze mną przez e-mail: example@example.com';
@@ -41,3 +41,6 @@ const contact = () => {
 const projects = () => {
 	sq5.textContent = 'Tutaj będą moje projekty';
 };
+
+// Load every time
+me();
