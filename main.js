@@ -33,13 +33,13 @@ setInterval(displayTime, 1000);
 
 // Dynamically change text in div
 const me = () => {
-	sq5.textContent = 'Nazywam się Milan Muzalewski i pochodzę z Polski. Mam 14 lat i uczęszczam do trzeciej klasy gimnazjum w małej miejscowości pod Poznaniem.';
+	sq5.textContent = 'I am a Software Engineer, building scalable platforms for Paysafe. Currently living in Hyderabad, India. My interests range from coding to entrepreneurship. I am also interested in soccer, cycling, and innovation.';
 };
 const contact = () => {
-	sq5.textContent = 'Skontaktuj się ze mną przez e-mail: example@example.com';
+	sq5.textContent = 'You can get in touch with me at antrix190@gmail.com';
 };
 const projects = () => {
-	sq5.textContent = 'Tutaj będą moje projekty';
+	sq5.textContent = 'Take a look at my projects https://www.github.com/antrix190';
 };
 
 // Load every time
